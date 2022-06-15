@@ -8,7 +8,7 @@ import time         #modulo para tempo e data
 
 PORT = 5050         #porta de acesso
 FORMATO = 'utf-8'   #formato para codificacao
-SERVER = "192.168.0.109"    #IP do servidor 
+SERVER = "192.168.0.9"    #IP do servidor 
 ADDR = (SERVER, PORT)       #Address do servidor
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #declarando o client
